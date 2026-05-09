@@ -9,12 +9,12 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 bg-brand-bg/50 backdrop-blur-xl border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <a href="#hero" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-pink-600 rounded-lg flex items-center justify-center">
               <Terminal className="w-5 h-5 text-white" />
             </div>
             <span className="font-bold text-xl tracking-tight text-white italic">ALVITA<span className="text-pink-600">.</span>DEV</span>
-          </a>
+          </Link>
 
           {/* Desktop */}
           <div className="hidden md:flex items-center space-x-8">
